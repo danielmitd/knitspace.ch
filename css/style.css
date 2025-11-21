@@ -1,108 +1,112 @@
 /* Romek Sharp Regular */
 @font-face {
-	font-family: "Romek Sharp Regular";
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
-	src:url('woff2/Romek Regular.woff2') format('woff2');
+  font-family: "Romek Sharp Regular";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/romek-regular.woff2") format("woff2");
 }
 
 /* Romek Sharp Semibold */
 @font-face {
-	font-family: "Romek Sharp Semibold";
-	font-weight: 600;
-	font-style: normal;
-	font-display: swap;
-	src:url('woff2/Romek Semibold.woff2') format('woff2');
+  font-family: "Romek Sharp Semibold";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/romek-semibold.woff2") format("woff2");
 }
-		
-html, body {
-	font-family: "Romek Sharp Semibold", sans-serif;
-	margin: 0;
-	padding: 0;
-	background-color: #e7adbc; /* Pink */
-	color: #2a68aa; /* Blue */
-	height: 100vh;
+
+html,
+body {
+  font-family: "Romek Sharp Semibold", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e7adbc; /* Pink */
+  color: #2a68aa; /* Blue */
+  height: 100vh;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-main, footer {
-	padding: 2rem;
+main,
+footer {
+  padding: 2rem;
 }
 
 header {
-	padding: 0 2rem 0 2rem;
+  padding: 0 2rem 0 2rem;
 }
 
 header h2 {
-	margin: 1rem 0 1rem 0
+  margin: 1rem 0 1rem 0;
 }
 
 main {
-    display: flex;
-    gap: 3rem;
-	flex: 1;
+  display: flex;
+  gap: 3rem;
+  flex: 1;
 }
 
-.intro-text, main img {
-    width: 50%;
+.intro-text,
+main img {
+  width: 50%;
 }
 
 main img {
-    height: auto;
-	object-fit: cover;
+  height: auto;
+  object-fit: cover;
 }
 
-h1, h2 {
-	font-weight: 600;
-	font-size: 3rem;
-	line-height: 1;
-	display: inline-block;
-
+h1,
+h2 {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1;
+  display: inline-block;
 }
 
 p {
-	font-weight: 600;
-	font-size: 1.5rem;
-	line-height: 1.2;
-	margin-top: 0;
-	margin-bottom: 0.75rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
 }
 
 a {
-	color: inherit;
+  color: inherit;
 }
 
 @media (max-width: 900px) {
-    main {
-        flex-direction: column;
-    }
-    
-    .intro-text, main img {
-        width: 100%;
-    }
+  main {
+    flex-direction: column;
+  }
+
+  .intro-text,
+  main img {
+    width: 100%;
+  }
 }
 
 .symbols {
-    display: flex;
-    gap: 20px;
-    margin-top: 2rem;
+  display: flex;
+  gap: 20px;
+  margin-top: 2rem;
 }
 
 .symbols img {
-    width: auto;
-    height: 70px;
-    max-height: 70px;
+  width: auto;
+  height: 70px;
+  max-height: 70px;
 }
 
 .symbols img:nth-child(1) {
-    color: #2a68aa;
+  color: #2a68aa;
 }
 
 .symbols img:nth-child(2) {
-    color: #e8592c;
+  color: #e8592c;
 }
