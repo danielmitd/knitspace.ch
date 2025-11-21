@@ -24,6 +24,7 @@ body {
   background-color: #e7adbc; /* Pink */
   color: #2a68aa; /* Blue */
   height: 100vh;
+  max-height: 100vh;
 }
 
 body {
@@ -48,6 +49,8 @@ main {
   display: flex;
   gap: 3rem;
   flex: 1;
+  min-height: 0;
+  overflow: hidden;
 }
 
 .intro-text,
@@ -57,6 +60,7 @@ main img {
 
 main img {
   height: auto;
+  max-height: calc(100vh - 10rem);
   object-fit: cover;
 }
 
