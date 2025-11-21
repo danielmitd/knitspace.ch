@@ -23,13 +23,12 @@ body {
   padding: 0;
   background-color: #e7adbc; /* Pink */
   color: #2a68aa; /* Blue */
-  height: 100vh;
-  max-height: 100vh;
 }
 
 body {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 .svg-overlay {
@@ -62,8 +61,6 @@ main {
   display: flex;
   gap: 3rem;
   flex: 1;
-  min-height: 0;
-  overflow-y: auto;
   position: relative;
   z-index: 1;
 }
@@ -76,18 +73,18 @@ footer {
 .intro-text,
 main img {
   width: 50%;
+  max-height: 100dvh;
 }
 
 main img {
   height: auto;
-  max-height: calc(100vh - 10rem);
   object-fit: cover;
 }
 
 h1,
 h2 {
   font-weight: 600;
-  font-size: clamp(2rem, 5vw, 3rem);
+  font-size: clamp(2rem, 4vw, 3rem);
   line-height: 1;
   display: inline-block;
 }
