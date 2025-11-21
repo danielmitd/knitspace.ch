@@ -1,97 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>knitspace.ch - Under Construction</title>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+<html lang="de">
+<head>
 
-      body {
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        background: linear-gradient(135deg, #ea9666 0%, #304299 100%);
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-      }
+  <meta charset="UTF-8">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Atelier, Workshops, Produktion.">
+  <title>Knitspace</title>
 
-      .container {
-        text-align: center;
-        max-width: 600px;
-        padding: 2em;
-        background: rgba(255, 255, 255, 0.1);
-        backdrop-filter: blur(20px);
-        border-radius: 20px;
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-      }
+  <link rel="stylesheet" href="css/style.css">
 
-      .logo {
-        font-size: 3rem;
-        font-weight: 300;
-        margin-bottom: 20px;
-        letter-spacing: 2px;
-      }
+</head>
 
-      .tagline {
-        font-size: 1.2rem;
-        margin-bottom: 30px;
-        opacity: 0.9;
-        font-weight: 300;
-      }
+<body>
 
-      .construction-message {
-        font-size: 1.1rem;
-        line-height: 1.6;
-      }
+<div class="svg-overlay"></div>    
 
-      .spinner {
-        width: 25px;
-        height: 25px;
-        border: 3px solid rgba(255, 255, 255, 0.3);
-        border-top: 3px solid white;
-        border-radius: 50%;
-        animation: spin 1s linear infinite;
-        margin: 0 auto 30px;
-      }
+<header>
+    <h2>knitspace</h2>
+</header>
 
-      @keyframes spin {
-        0% {
-          transform: rotate(0deg);
-        }
-        100% {
-          transform: rotate(360deg);
-        }
-      }
+<main>
 
-      @media (max-width: 600px) {
-        .logo {
-          font-size: 2.5rem;
-        }
+    <div class="intro-text">
+        <h1> 
+            Atelier </br>
+            Workshops </br>
+            Produktion
+        </h1>
 
-        .container {
-          margin: 20px;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <h1 class="logo">knitspace.ch</h1>
-      <p class="tagline">Your Creative Space for Knitting</p>
+        <p>Wir sind knitspace – eine Produktionsstätte für Industriestricken. In unserem Atelier in Zürich entwickeln wir Prototypen und stricken diese in Kleinserien auf einer Steiger Libra Industriestrickmaschine ab.</p>
 
-      <div class="spinner"></div>
+        <p>Unsere Produkte verkaufen wir unter den Labelnamen <a href="https://www.knitkat.shop/">Knitkat</a> und <a href="https://timide.ch/de">Timide</a>.</p>
 
-      <div class="construction-message">
-        <p>We're currently working hard to bring you something amazing.</p>
-        <p>Our website is under construction and will be ready soon!</p>
-      </div>
+        <p>Durch Workshops und Kooperationen wollen wir kreative Perspektiven für ein breites Publikum anbieten, handwerkliche Fähigkeiten fördern und das Bewusstsein für nachhaltige und vor allem regionale Produktion stärken.</p>
+        
+        <div class="symbols">
+            <img src="images/knit-back.svg" alt="Symbol Knit Back">
+            <img src="images/tuck-back.svg" alt="Symbol Tuck Back"> 
+            <img src="images/drop.svg" alt="Symbol Drop"> 
+        </div>
+ 
     </div>
-  </body>
+
+    <img src="images/knitspace.jpg" alt="Garne und Strickmaschine im Knitspace Atelier">
+
+</main>
+
+<footer>
+    <p>Zeughausstr. 41, 8004 Zürich / <a href="mailto:mail@knitspace.ch">mail@knitspace.ch</a> / <a href="https://www.instagram.com/knitspace_zh">@knitspace_zh</a></p>
+</footer>
+
+
+</body>
 </html>
